@@ -1,0 +1,62 @@
+body{
+    background-color: aliceblue;
+    font-family: "poppines",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: rgb(241, 234, 234);
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px ;
+    text-align: center;
+    width: 350px;
+}
+#movieInput{
+    width: 80%;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: rgb(183, 23, 108);
+    margin-bottom: 10px;
+    transition: border 0.3s;
+}
+#movieInput:focus{
+    border-color: rgb(10, 59, 237);
+    border-radius: 20px;
+}
+:placeholder-shown{
+    text-align: center;
+}
+button{
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(25, 85, 183);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: blue;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin-top: 15px;
+}
+li{
+    background-color: #f0f0f0;
+    margin: 6px 0px;
+    padding: 10px ;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+li:hover{
+    background-color: #ffdddd;
+}
